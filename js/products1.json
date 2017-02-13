@@ -12,7 +12,8 @@
 	"title": "Prod2",
 	"link": "Link2",
 	"description": "Here is some more information about this product that is only revealed once clicked on."
-}],
+}]},
+	{
 	"row":[
 {
 	"image": "../images/office.jpg",
@@ -25,44 +26,50 @@
 	"title": "Prod4",
 	"link": "Link4",
 	"description": "Here is some more information about this product that is only revealed once clicked on."
-}],
+}]},
+	,
+	{
 	"row":[
 {
 	"image": "../images/office.jpg",
-	"title": "Prod5",
-	"link": "Link5",
+	"title": "Prod3",
+	"link": "Link3",
 	"description": "Here is some more information about this product that is only revealed once clicked on."
 },
 {
 	"image": "../images/office.jpg",
-	"title": "Prod6",
-	"link": "Link6",
+	"title": "Prod4",
+	"link": "Link4",
 	"description": "Here is some more information about this product that is only revealed once clicked on."
-}],
-	"row": [
+}]},
+	,
+	{
+	"row":[
 {
 	"image": "../images/office.jpg",
-	"title": "Prod7",
-	"link": "Link7",
+	"title": "Prod3",
+	"link": "Link3",
 	"description": "Here is some more information about this product that is only revealed once clicked on."
 },
 {
 	"image": "../images/office.jpg",
-	"title": "Prod8",
-	"link": "Link8",
+	"title": "Prod4",
+	"link": "Link4",
 	"description": "Here is some more information about this product that is only revealed once clicked on."
-}],
-	"row": [
+}]},
+	,
+	{
+	"row":[
 {
 	"image": "../images/office.jpg",
-	"title": "Prod9",
-	"link": "Link9",
+	"title": "Prod3",
+	"link": "Link3",
 	"description": "Here is some more information about this product that is only revealed once clicked on."
 },
 {
 	"image": "../images/office.jpg",
-	"title": "Prod10",
-	"link": "Link10",
+	"title": "Prod4",
+	"link": "Link4",
 	"description": "Here is some more information about this product that is only revealed once clicked on."
-}]
-}]
+}]}
+]
