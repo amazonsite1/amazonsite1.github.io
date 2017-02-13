@@ -7,6 +7,15 @@ app.config(function($routeProvider){
 	.when("/products", {
 		templateUrl : "views/products.html"
 	})
+	.when("/products", {
+		templateUrl : "views/products2.html"
+	})
+	.when("/products", {
+		templateUrl : "views/products3.html"
+	})
+	.when("/products", {
+		templateUrl : "views/products4.html"
+	})
 	.when("/about-us", {
 		templateUrl : "views/about-us.html"
 	});
