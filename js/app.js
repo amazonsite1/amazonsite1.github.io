@@ -6,11 +6,11 @@ app.config(function($routeProvider){
 	})
 	.when("/products", {
 		templateUrl : "views/products.html",
-		controller: "my-products1"
+		controller: "Products1Controller"
 	})
 	.when("/products2", {
 		templateUrl : "views/products2.html",
-		controller: 'my-products2'
+		controller: "my-products2"
 	})
 	.when("/products3", {
 		templateUrl : "views/products3.html",
