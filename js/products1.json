@@ -26,50 +26,5 @@
 	"title": "Prod4",
 	"link": "Link4",
 	"description": "Here is some more information about this product that is only revealed once clicked on."
-}]},
-	,
-	{
-	"row":[
-{
-	"image": "../images/office.jpg",
-	"title": "Prod3",
-	"link": "Link3",
-	"description": "Here is some more information about this product that is only revealed once clicked on."
-},
-{
-	"image": "../images/office.jpg",
-	"title": "Prod4",
-	"link": "Link4",
-	"description": "Here is some more information about this product that is only revealed once clicked on."
-}]},
-	,
-	{
-	"row":[
-{
-	"image": "../images/office.jpg",
-	"title": "Prod3",
-	"link": "Link3",
-	"description": "Here is some more information about this product that is only revealed once clicked on."
-},
-{
-	"image": "../images/office.jpg",
-	"title": "Prod4",
-	"link": "Link4",
-	"description": "Here is some more information about this product that is only revealed once clicked on."
-}]},
-	,
-	{
-	"row":[
-{
-	"image": "../images/office.jpg",
-	"title": "Prod3",
-	"link": "Link3",
-	"description": "Here is some more information about this product that is only revealed once clicked on."
-},
-{
-	"image": "../images/office.jpg",
-	"title": "Prod4",
-	"link": "Link4",
-	"description": "Here is some more information about this product that is only revealed once clicked on."
 }]}
 ]
