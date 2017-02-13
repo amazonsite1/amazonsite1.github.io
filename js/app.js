@@ -10,15 +10,15 @@ app.config(function($routeProvider){
 	})
 	.when("/products2", {
 		templateUrl : "views/products2.html",
-		controller: "my-products2"
+		controller: "Products2Controller"
 	})
 	.when("/products3", {
 		templateUrl : "views/products3.html",
-		controller: "my-products3"
+		controller: "Products3Controller"
 	})
 	.when("/products4", {
 		templateUrl : "views/products4.html",
-		controller: "my-products4"
+		controller: "Products4Controller"
 	})
 	.when("/about-us", {
 		templateUrl : "views/about-us.html"
