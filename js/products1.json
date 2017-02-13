@@ -2,7 +2,7 @@
 	"row": [
 
 {
-	"image": "office.jpg",
+	"image": "../images/office.jpg",
 	"title": "Prod1",
 	"link": "Link1",
 	"description": "Here is some more information about this product that is only revealed once clicked on."
