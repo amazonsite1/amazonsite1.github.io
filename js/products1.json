@@ -1,4 +1,6 @@
-[
+[{
+	"row": [
+
 {
 	"image": "images/office.jpg",
 	"title": "Prod1",
@@ -10,7 +12,8 @@
 	"title": "Prod2",
 	"link": "Link2",
 	"description": "Here is some more information about this product that is only revealed once clicked on."
-},
+}],
+	"row":[
 {
 	"image": "images/office.jpg",
 	"title": "Prod3",
@@ -22,7 +25,8 @@
 	"title": "Prod4",
 	"link": "Link4",
 	"description": "Here is some more information about this product that is only revealed once clicked on."
-},
+}],
+	"row":[
 {
 	"image": "images/office.jpg",
 	"title": "Prod5",
@@ -34,7 +38,8 @@
 	"title": "Prod6",
 	"link": "Link6",
 	"description": "Here is some more information about this product that is only revealed once clicked on."
-},
+}],
+	"row": [
 {
 	"image": "images/office.jpg",
 	"title": "Prod7",
@@ -46,7 +51,8 @@
 	"title": "Prod8",
 	"link": "Link8",
 	"description": "Here is some more information about this product that is only revealed once clicked on."
-},
+}],
+	"row": [
 {
 	"image": "images/office.jpg",
 	"title": "Prod9",
@@ -58,5 +64,5 @@
 	"title": "Prod10",
 	"link": "Link10",
 	"description": "Here is some more information about this product that is only revealed once clicked on."
-},
-]
+}]
+}]

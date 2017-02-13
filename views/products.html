@@ -12,35 +12,19 @@
       </div>
       <div id="test1" class="col s12 tab-content">
 
-        <div class="tab-row">
-          <div class="tab-square">
+        <div class="tab-row" ng-repeat="prodRow in myProducts">
+          <div class="tab-square" ng-repeat="product in prodRow">
             <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="images/office.jpg">
+                <img class="activator" src="{{product.image}}">
               </div>
               <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                <p><a href="#">This is a link</a></p>
+                <span class="card-title activator grey-text text-darken-4">{{product.title}}<i class="material-icons right">more_vert</i></span>
+                <p><a href="#">{{product.link}}</a></p>
               </div>
               <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                <p>Here is some more information about this product that is only revealed once clicked on.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="tab-square">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="images/office.jpg">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                <p><a href="#">This is a link</a></p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                <span class="card-title grey-text text-darken-4">{{product.title}}<i class="material-icons right">close</i></span>
+                <p>{{product.descriptions}}</p>
               </div>
             </div>
           </div>
