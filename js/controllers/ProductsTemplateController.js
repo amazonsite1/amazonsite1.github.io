@@ -1,4 +1,7 @@
-app.controller('Products1Controller', ['$scope', '$http', function($scope, $http){
+app.controller('ProductsTemplateController', ['$scope', '$http', function($scope, $http){
 	$scope.view = "one";
-	
+
+	$scope.prodView = function(view){
+		$scope.view = view;
+	};
 }]);
