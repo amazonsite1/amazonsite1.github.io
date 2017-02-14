@@ -53,13 +53,6 @@ a.active{
 .row .col{
 	padding: 0 !important;
 }
-products-one{
-	height: 200em;
-	width: 2em;
-}
-.product-fade{
-	height: 200em;
-}
 .product-fade.ng-enter {
    transition:2.5s linear all;
 }
