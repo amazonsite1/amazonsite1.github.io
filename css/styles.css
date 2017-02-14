@@ -54,16 +54,13 @@ a.active{
 	padding: 0 !important;
 }
 
-.product-fade.ng-enter, .product-fade.ng-leave {
+.product-fade.ng-enter {
    transition:2.5s linear all;
 }
 
-.product-fade.ng-enter,
-.product-fade.ng-leave.ng-leave-active {
+.product-fade.ng-enter {
   opacity:0;
 }
-
-.product-fade.ng-leave,
 .product-fade.ng-enter.ng-enter-active {
   opacity:1;
 }
