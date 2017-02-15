@@ -2,12 +2,12 @@ var app = angular.module("myApp", ["ngRoute", "ngAnimate"]);
 app.config(function($routeProvider){
 	$routeProvider
 	.when("/", {
-		templateUrl: "../views/landing.htm"
+		templateUrl: "../views/landing.html"
 	})
 	.when("/products", {
-		templateUrl: "../views/products-home.htm"
+		templateUrl: "../views/products-home.html"
 	})
 	.when("/about-us", {
-		templateUrl: "../views/about-us.htm"
+		templateUrl: "../views/about-us.html"
 	});
 });
