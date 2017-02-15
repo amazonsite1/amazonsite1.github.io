@@ -27,7 +27,11 @@
      $( document ).ready(function(){
    $(".button-collapse").sideNav();
  })
-
+$(document).on('click','.button-collapse',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
+});
   </script>
   <div class="navbar-fixed">
     <nav class="my-nav">
