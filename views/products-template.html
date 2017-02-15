@@ -3,23 +3,20 @@
   <h1>Products</h1>
   <div class="tabular">
    <div class="col s12">
-        <ul class="tabs">
-          <li class="tab col s3"><a class="black-text" ng-click="prodView('one')">Test 1</a></li>
-          <li class="tab col s3"><a class="black-text" ng-click="prodView('two')">Test 2</a></li>
-          <li class="tab col s3"><a class="black-text" ng-click="prodView('three')">Test 3</a></li>
-          <li class="tab col s3"><a class="black-text" ng-click="prodView('four')">Test 4</a></li>
+        <ul class="tabs" ng-repeat="title in productTitles">
+          <li class="tab col s3"><a class="black-text" ng-click="prodView($index)">{{title}}</a></li>
         </ul>
       </div>
-      <div ng-if="view == 'one'" class="product-fade">
+      <div ng-if="view == 1" class="product-fade">
     <products-one></products-one>
     </div>
-    <div ng-if="view == 'two'" class="product-fade">
+    <div ng-if="view == 2" class="product-fade">
     <products-two></products-two>
     </div>
-    <div ng-if="view == 'three'" class="product-fade">
+    <div ng-if="view == 3" class="product-fade">
     <products-three></products-three>
     </div>
-    <div ng-if="view == 'four'" class="product-fade">
+    <div ng-if="view == 4" class="product-fade">
     <products-four></products-four>
     </div>
   </div>
