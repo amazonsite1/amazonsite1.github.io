@@ -27,14 +27,21 @@
     <nav class="my-nav">
       <div class="nav-wrapper">
         <a ng-href="#!" class="brand-logo">Amazon Top 10</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li><a ng-href="#!">Home</a></li>
           <li><a ng-href="#!products">Products</a></li>
           <li><a ng-href="#!about-us">About Us</a></li>
         </ul>
+        <ul class="side-nav" id="mobile-demo">
+         <li><a ng-href="#!">Home</a></li>
+          <li><a ng-href="#!products">Products</a></li>
+          <li><a ng-href="#!about-us">About Us</a></li>
+      </ul>
       </div>
     </nav>
   </div>
+
 
   <div ng-view></div>
 
