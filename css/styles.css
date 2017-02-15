@@ -1,4 +1,7 @@
-html { margin-left: calc(100vw - 100%); }
+html {
+    width:100vw;
+    overflow-x:hidden;
+}
 h1{
 	text-align: center;
 }
