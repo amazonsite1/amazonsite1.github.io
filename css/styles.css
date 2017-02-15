@@ -48,6 +48,9 @@ h1{
 /*.active{
 	background-color: #ffd54f;
 }*/
+.black-text:hover{
+	cursor: pointer;
+}
 a.active{
 /*	background-color: #ffc107 !important;*/
 	background: #ffb300;
