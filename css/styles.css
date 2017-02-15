@@ -64,7 +64,7 @@ a.active{
 	padding: 0 !important;
 }
 .product-fade.ng-enter {
-   transition:2.5s linear all;
+   transition:.75s linear all;
 }
 
 .product-fade.ng-enter {
