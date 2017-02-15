@@ -5,6 +5,7 @@ app.controller('ProductsTemplateController', ['$scope', '$http', function($scope
 	console.log($scope.productTitles);
 	});
 	$scope.prodView = function(view){
-		$scope.view = view-1;
+		console.log(view);
+		$scope.view = view+1;
 	};
 }]);
