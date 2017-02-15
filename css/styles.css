@@ -74,12 +74,5 @@ a.active{
   opacity:1;
 }
 #sidenav-overlay{
-	position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 120vh;
-    background-color: rgba(0, 0, 0, 0);
-    z-index: 997;
-    will-change: opacity;
+    background-color: rgba(0, 0, 0, 0)!important;
 }
