@@ -2,6 +2,7 @@ app.controller('ProductsTemplateController', ['$scope', '$http', function($scope
 	$scope.view = "one";
 	$http.get('js/product-titles.json').then(function(titles){
 	$scope.productTitles = titles.data;
+	console.log($scope.productTitles);
 	});
 	$scope.prodView = function(view){
 		$scope.view = view;
