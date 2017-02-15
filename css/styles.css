@@ -17,6 +17,7 @@ h1{
 	width:90%;
 }
 .tabs{
+	display: flex;
 	border-radius: 6px;
 	    border-color: #adb1b8 #a2a6ac #8d9096 !important;
 	    border-style: solid;
@@ -24,6 +25,9 @@ h1{
 	background: #ffe082;
     background: -webkit-linear-gradient(top,#ffca28,#ffe082); 
     background: linear-gradient(to bottom,#ffca28,#ffe082);
+}
+.tab{
+	flex: 1;
 }
 .tab-content{
     display: flex;
