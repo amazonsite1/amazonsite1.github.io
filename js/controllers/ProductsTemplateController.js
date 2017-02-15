@@ -1,5 +1,5 @@
 app.controller('ProductsTemplateController', ['$scope', '$http', function($scope, $http){
-	$scope.view = ;
+	$scope.view = 1;
 	$http.get('js/product-titles.json').then(function(titles){
 	$scope.productTitles = titles.data;
 	console.log($scope.productTitles);
