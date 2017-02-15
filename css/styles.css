@@ -74,6 +74,6 @@ a.active{
   opacity:1;
 }
 #sidenav-overlay{
-    /*background-color: rgba(0, 0, 0, 0)!important;*/
-    display: none !important;
+    background-color: rgba(0, 0, 0, 0)!important;
+    z-index: 996 !important;
 }
