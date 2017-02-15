@@ -5,7 +5,7 @@
    <div class="col s12">
         <ul class="tabs">
           <li class="tab col s3" ng-repeat="title in productTitles"><a class="black-text" 
-              ng-class="view === $index ? 'active' : ''" ng-click="prodView($index)">{{title.title}}</a></li>
+              ng-class="view - 1 === $index ? 'active' : ''" ng-click="prodView($index)">{{title.title}}</a></li>
         </ul>
       </div>
       <div ng-if="view == 1" class="product-fade">
