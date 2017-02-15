@@ -3,8 +3,8 @@
   <h1>Products</h1>
   <div class="tabular">
    <div class="col s12">
-        <ul class="tabs" ng-repeat="title in productTitles">
-          <li class="tab col s3"><a class="black-text" ng-click="prodView($index)">{{title}}</a></li>
+        <ul class="tabs">
+          <li class="tab col s3" ng-repeat="title in productTitles"><a class="black-text" ng-click="prodView($index)">{{title}}</a></li>
         </ul>
       </div>
       <div ng-if="view == 1" class="product-fade">
